@@ -54,7 +54,7 @@ RAC-BAG-ID/ <br>
 &emsp;&emsp;&emsp;&emsp;          | [payload files] <br>
 &emsp;&emsp;&emsp;&emsp;          | metadata.json <br>
 
-### Structure Componets
+### Structure Components
 #### RAC-BAG-ID 
 The name of the root directory of the bag. This directory name may include Unicode characters and characters in the extended character set (128–255), except for the following reserved characters: 
 
