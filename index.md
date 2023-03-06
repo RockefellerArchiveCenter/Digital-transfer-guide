@@ -28,7 +28,7 @@ For more information, please see the Metadata Field Specification section below.
 - A single bag should not be more than 2GB (gigabytes) in size. If a bag exceeds this size limit and contains multiple files, then the approach would be to divide it into multiple bags which do not exceed the size limit. You should link these bags together by using Bag-Group-Identifier and Bag-Count fields. These smaller bags can then be transferred with the regular processes.  
 - Bags which exceed the size limit and cannot be subdivided are considered edge cases. Please contact and consult with the RAC before any attempt is made to deliver these bags so that the appropriate method of transfer can be determined.  
 
-### Perferred Tool
+### Preferred Tool
 - [Dart](https://aptrust.github.io/dart-docs/) is the tool preferred by the Rockefeller Archive Center to package digital and deliver digital transfers. DART can be configured by importing settings files provided by the RAC.
 
 ## Digital Transfer Structure 
