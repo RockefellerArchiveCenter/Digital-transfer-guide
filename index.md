@@ -12,7 +12,7 @@ title:  "Guide to Digital Transfer"
 ### Structure
 - Transfers should be structured so that they adhere to the Rockefeller Archive Center BagIt Specification. The RAC (Rockefeller Archive Center) BagIt Specification conforms with the [BagIt specification](https://datatracker.ietf.org/doc/html/draft-kunze-bagit-14), a hierarchical file packaging format for the storage and transfer of arbitrary digital content suitable for disk-based or network-based storage and transfer, developed by the Library of Congress. A [BagIt Profile](https://github.com/bagit-profiles/bagit-profiles-specification) is needed and used to validate all transfers. 
 
-For more information, see the [Digital Transfer Structure section below](##Digital Transfer Structure).
+For more information, see the [Digital Transfer Structure section below](#digital-transfer-structure).
 
 ### Metadata
 - A set of structured data elements that can help identify and describe the transfer. 
