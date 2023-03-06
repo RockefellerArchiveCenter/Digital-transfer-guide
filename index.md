@@ -17,7 +17,7 @@ For more information, see the [Digital Transfer Structure section below](#digita
 ### Metadata
 - A set of structured data elements that can help identify and describe the transfer. 
 - Each transfer includes a set of minimum elements to support archival management of records in any format, as specified by [Describing Archives: A Content Standard](https://files.archivists.org/pubs/DACS_2019.0.3_Version.pdf). The RAC will index this metadata as structured data. These elements are key-value pairs in bag-info-txt. 
-- The donor organization may include additional data elements, serialized as a single JSON or JSON-LD file named metadata.json using UTF-8-character encoding and         included in the data/directory of the bag. The RAC will preserve this file as a bitstream (sequence of data in binary form) alongside the records that it pertains to, but it may not be indexed as structured data.   
+- The donor organization may include additional data elements, serialized as a single JSON or JSON-LD file named `metadata.json` using UTF-8-character encoding and included in the data/directory of the bag. The RAC will preserve this file as a bitstream (sequence of data in binary form) alongside the records that it pertains to, but it may not be indexed as structured data.   
 
 For more information, please see the Metadata Field Specification section below. 
 
