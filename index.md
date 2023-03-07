@@ -2,7 +2,7 @@
 layout: docs
 title:  "Guide to Digital Transfer"
 ---
-# Requirements for the Transfer of Digital Records 
+## Requirements for the Transfer of Digital Records 
 ## Overview 
 ### Transfers should
 - Contain the information required to support archival management and preservation. 
@@ -59,14 +59,14 @@ RAC-BAG-ID/ <br>
 The name of the root directory of the bag. This directory name may include Unicode characters and characters in the extended character set (128–255), except for the following reserved characters: 
 
 - < (less than) 
-- (>) (greater than) 
+- > (greater than) 
 - : (colon) 
 - " (double quote) 
 - / (forward slash) 
 - \ (backslash) 
 - | (vertical bar or pipe) 
 - ? (question mark) 
-- (*) (asterisk) 
+- * (asterisk) 
 
 #### bagit.txt: 
 
@@ -96,7 +96,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in `bag-info
 
 ### Required:  
 
-Bagging-Date 
+#### Bagging-Date 
 - **Definition**: Date that the content was prepared for delivery. 
 - **Data type**: Values must meet ISO 8601: Standard for Representation of Dates and Times. 
 - **Repeatability**: No 
@@ -105,7 +105,7 @@ Bagging-Date
 
 
 
-BagIt-Profile-Identifier 
+#### BagIt-Profile-Identifier 
 - **Definition**: An HTTP URI that identifies the BagIt Profile. The Rockefeller Archive Center will provide this identifier to the donor organization. 
 - **Data type**: Locally controlled, temporary URL: https://gist.githubusercontent.com/HaSistrunk/65d59e558c436b9d934d98fd8fb0f575/raw/097f2c96c27b1e67a173c6c390458a981ffdbd83/organizational-bag-profile.json <br> 
 - **Repeatability**: No <br> 
@@ -113,7 +113,7 @@ BagIt-Profile-Identifier
 "https://standards.rockarch.org/bagit/organizational-bag-profile.json" <br>
 "https://rockarch.org/bagitprofiles/bag-profile.json" 
 
-Date-Start 
+#### Date-Start 
 - **Definition**: The earliest date on which records in the bag were created. 
 - **Data type**: Values must meet ISO 8601: Standard for Representation of Dates and Times. 
 - **Repeatability**: No 
@@ -121,14 +121,14 @@ Date-Start
 “1995-01-01” <br>
 “2002” 
 
-Date-End 
+#### Date-End 
 - **Definition**: The latest date on which records of the transfer were created. Use only if this value differs from Date-Start. 
 - **Data type**: Values must meet ISO 8601: Standard for Representation of Dates and Times. 
 - **Repeatability**: No 
 - **Examples**: <br> 
 “1997-12-31”  
 
-External-Identifier 
+#### External-Identifier 
 - **Definition**: A unique identifier applied to each group of records composed of characters, numbers or letters, or a combination thereof, that uniquely identify the record within a given domain. 
 - **Data type**: String 
 - **Repeatability**: No 
@@ -136,7 +136,7 @@ External-Identifier
 “OyGpXmSFVkCpds7i4gRv” <br>
 “Grant2561” 
 
-Internal-Sender-Description 
+#### Internal-Sender-Description 
 - **Definition**: A prose description of the nature and contents of the group of records. 
 - **Data type**: String 
 - **Repeatability**: No 
@@ -144,7 +144,7 @@ Internal-Sender-Description
 “Annual reports discussing the accomplishments and major strategic initiatives of the Ford Foundation.” <br>
 “Board reports from all Russell Sage Foundation board meetings.” 
 
-Language 
+#### Language 
 - **Definition**: The natural language(s) in which the materials are written. 
 - **Data type**: Values must meet [ISO 639-2/B: Codes for the Representation of Names of Languages](https://www.loc.gov/standards/iso639-2/php/code_list.php). If materials have no language, please use “nil” 
 - **Repeatability**: Yes 
@@ -152,14 +152,14 @@ Language
 “eng” <br> 
 “spa” 
 
-Payload-Oxum 
+#### Payload-Oxum 
 - **Definition**: The “octetstream sum” of the payload, namely, a two-part number of the form OctetCount.StreamCount, where OctetCount is the total number of octets (8-bit bytes) across all payload file content and StreamCount is the total number of payload files. Payload-Oxum should be included in bag-info.txt. 
 - **Data type**: OctetCount.StreamCount 
 - **Repeatability**: No 
 - **Examples**: <br> 
 “279164409832.1198” 
 
-Record-Type 
+#### Record-Type 
 - **Definition**: The broad category into which the records fall. 
 - **Data type**: Locally controlled. 
 - **Repeatability**: No 
@@ -167,7 +167,7 @@ Record-Type
 “annual reports” <br> 
 “grant records” 
 
-Source-Organization 
+#### Source-Organization 
 - **Definition**: The organization responsible for sending the content. 
 - **Data type**: Locally controlled string 
 - **Repeatability**: No 
@@ -176,7 +176,7 @@ Source-Organization
 “Ford Foundation” <br> 
 “Social Science Research Council” 
 
-Title 
+#### Title 
 - **Definition**: The title of a group of records. Do not include dates or identifiers in the title element. This should not be a description of the material type but instead a declarative title for all the records in the bag. 
 - **Data type**: String 
 - **Repeatability**: No 
@@ -188,7 +188,7 @@ Title
 
 ### Optional: 
 
-Bag-Count 
+#### Bag-Count 
 - **Definition**: Two numbers separated by ‘of,’ in particular, ‘N of T,’ where T is the total number of bags in a group of bags and N is the ordinal number within the group; if T is not known, specify it as ‘?’ (question mark). 
 - **Data type**: String 
 - **Repeatability**: No 
@@ -197,7 +197,7 @@ Bag-Count
 “4 of 4” <br>
 “3 of ?” 
 
-Bag-Group-Identifier 
+#### Bag-Group-Identifier 
 - **Definition**: A unique identifier for the entire set of bags to which this bag belongs. 
 - **Data type**: String 
 - **Repeatability**: No 
@@ -206,7 +206,7 @@ Bag-Group-Identifier
 “AnnualReports” <br>
 “Group1” 
 
-Record-Creators 
+#### Record-Creators 
 - **Definition**: Identifies the individuals, organizations or departments that created the group of records. 
 - **Data type**: String 
 - **Repeatability**: Yes 
