@@ -69,23 +69,23 @@ The name of the root directory of the bag. This directory name may include Unico
 - ? (question mark) 
 - \* (asterisk) 
 
-#### bagit.txt: 
+#### bagit.txt 
 
 This file is required in the BagIt spec and includes BagIt version and tag file character encoding. 
 
-#### manifest-sha256.txt: 
+#### manifest-sha256.txt
 
 This file is required in the BagIt spec and contains a checksum for every item included in the bag’s payload. In this example we have chosen sha256, but using sha512 is also acceptable. md5 is not accepted as a checksum algorithm. 
 
-#### bag-info.txt: 
+#### bag-info.txt 
 
 This file contains metadata elements, which will be indexed as structured data. For more details on the metadata fields, their content, requirements, and usage, please see the Metadata Field Specification section below. Please use standardized names and avoid the use of all acronyms as separate stakeholders may use the same acronyms for different concepts. 
 
-#### data: 
+#### data 
 
 Required directory for payload items.  
 
-#### metadata.json: 
+#### metadata.json 
 
 Valid JSON or JSON-LD file that includes metadata elements included in `bag-info.txt` as well as any additional elements donors wish to provide to the RAC. This file is optional. 
 
@@ -95,7 +95,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in `bag-info
 
  
 
-### Required:  
+### Required  
 
 #### Bagging-Date 
 - **Definition**: Date that the content was prepared for delivery. 
@@ -187,7 +187,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in `bag-info
 
  
 
-### Optional: 
+### Optional 
 
 #### Bag-Count 
 - **Definition**: Two numbers separated by ‘of,’ in particular, ‘N of T,’ where T is the total number of bags in a group of bags and N is the ordinal number within the group; if T is not known, specify it as ‘?’ (question mark). 
