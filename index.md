@@ -46,14 +46,15 @@ This section includes a simple example of a Rockefeller Archive Center BagIt Spe
 
 
  
+ 
 RAC-BAG-ID/  
 
-&emsp;&emsp;    | bagit.txt <br>
-&emsp;&emsp;    | manifest-sha256.txt <br>
-&emsp;&emsp;    | bag-info.txt <br>
-&emsp;&emsp;    \--- data/ <br>
-&emsp;&emsp;&emsp;&emsp;          | [payload files] <br>
-&emsp;&emsp;&emsp;&emsp;          | metadata.json <br>
+&emsp;&emsp;    | bagit.txt  
+&emsp;&emsp;    | manifest-sha256.txt  
+&emsp;&emsp;    | bag-info.txt  
+&emsp;&emsp;    \--- data/  
+&emsp;&emsp;&emsp;&emsp;          | [payload files]  
+&emsp;&emsp;&emsp;&emsp;          | metadata.json 
 
 ### Structure Components
 #### RAC-BAG-ID 
