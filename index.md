@@ -46,7 +46,8 @@ This section includes a simple example of a Rockefeller Archive Center BagIt Spe
 
 
  
-RAC-BAG-ID/ <br>
+RAC-BAG-ID/  
+
 &emsp;&emsp;    | bagit.txt <br>
 &emsp;&emsp;    | manifest-sha256.txt <br>
 &emsp;&emsp;    | bag-info.txt <br>
@@ -59,14 +60,14 @@ RAC-BAG-ID/ <br>
 The name of the root directory of the bag. This directory name may include Unicode characters and characters in the extended character set (128–255), except for the following reserved characters: 
 
 - < (less than) 
-- > (greater than) 
+- \> (greater than) 
 - : (colon) 
 - " (double quote) 
 - / (forward slash) 
 - \ (backslash) 
-- | (vertical bar or pipe) 
+- \| (vertical bar or pipe) 
 - ? (question mark) 
-- * (asterisk) 
+- \* (asterisk) 
 
 #### bagit.txt: 
 
