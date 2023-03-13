@@ -3,7 +3,7 @@ type: "docs"
 category: "collection development and management"
 tags:
       "workflow"
-title: "Guide for Digital Transfer"
+title: "Guide to Digital Transfer"
 description: "A guide for transferring digital records"
 pages:
   - ["Guide for Digital Transfer", "index"]
