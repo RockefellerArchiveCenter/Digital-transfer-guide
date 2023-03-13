@@ -1,8 +1,7 @@
 ---
 layout: docs
-title:  "Guide to Digital Transfer"
+title:  "Guide for Digital Transfer"
 ---
-## Requirements for the Transfer of Digital Records 
 ## Overview 
 ### Transfers should
 - Contain the information required to support archival management and preservation. 
