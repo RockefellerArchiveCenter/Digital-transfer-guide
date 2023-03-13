@@ -109,7 +109,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in `bag-info
 
 #### BagIt-Profile-Identifier 
 - **Definition**: An HTTP URI that identifies the BagIt Profile. The Rockefeller Archive Center will provide this identifier to the donor organization. 
-- **Data type**: Locally controlled, temporary URL: https://gist.githubusercontent.com/HaSistrunk/65d59e558c436b9d934d98fd8fb0f575/raw/097f2c96c27b1e67a173c6c390458a981ffdbd83/organizational-bag-profile.json <br> 
+- **Data type**: URL 
 - **Repeatability**: No <br> 
 - **Examples**: <br>
 "https://standards.rockarch.org/bagit/organizational-bag-profile.json" <br>
