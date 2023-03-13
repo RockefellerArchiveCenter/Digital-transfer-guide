@@ -35,7 +35,6 @@ For more information, please see the [Metadata Field Specification](#metadata-fi
 This section describes the structure of digital transfers, which allow those packages to be validated and verified. 
 Donor organizations are responsible for creating structured bags which comply with this specification and transferring them via agreed-upon protocols and schedules. 
 
-
 ### Specifications 
 - Rockefeller Archive Center bags must conform to the [BagIt packaging specification](https://datatracker.ietf.org/doc/html/draft-kunze-bagit-14). 
 - Rockefeller Archive Center bags must be serialized (single .zip, .tar or tar.gz file) 
@@ -44,9 +43,6 @@ Donor organizations are responsible for creating structured bags which comply wi
 ### Structure Overview 
 This section includes a simple example of a Rockefeller Archive Center BagIt Specification-compliant bag.  
 
-
- 
- 
 RAC-BAG-ID/  
 
 &emsp;&emsp;    | bagit.txt  
@@ -90,11 +86,7 @@ Required directory for payload items.
 
 Valid JSON or JSON-LD file that includes metadata elements included in `bag-info.txt` as well as any additional elements donors wish to provide to the RAC. This file is optional. 
 
- 
-
 ## Metadata Field Specifications 
-
- 
 
 ### Required  
 
@@ -104,8 +96,6 @@ Valid JSON or JSON-LD file that includes metadata elements included in `bag-info
 - **Repeatability**: No 
 - **Examples**: <br> 
 “2016-04-24”  
-
-
 
 #### BagIt-Profile-Identifier 
 - **Definition**: An HTTP URI that identifies the BagIt Profile. The Rockefeller Archive Center will provide this identifier to the donor organization. 
@@ -185,8 +175,6 @@ Valid JSON or JSON-LD file that includes metadata elements included in `bag-info
 - **Examples**: <br>
 “Annual Reports” <br> 
 “Grant Records” 
-
- 
 
 ### Optional 
 
