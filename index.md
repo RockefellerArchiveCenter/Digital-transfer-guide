@@ -43,14 +43,15 @@ Donor organizations are responsible for creating structured bags which comply wi
 ### Structure Overview 
 This section includes a simple example of a Rockefeller Archive Center BagIt Specification-compliant bag.  
 
-RAC-BAG-ID/  
-
-&emsp;&emsp;    | bagit.txt  
-&emsp;&emsp;    | manifest-sha256.txt  
-&emsp;&emsp;    | bag-info.txt  
-&emsp;&emsp;    \--- data/  
-&emsp;&emsp;&emsp;&emsp;          | [payload files]  
-&emsp;&emsp;&emsp;&emsp;          | metadata.json 
+```
+<RAC-BAG-ID>/ 
+    | bagit.txt 
+    | manifest-sha256.txt 
+    | bag-info.txt 
+    \--- data/ 
+          | [payload files] 
+          | metadata.json  
+```
 
 ### Structure Components
 #### RAC-BAG-ID 
