@@ -13,12 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Publish SNS Notification
-      uses: akki192/aws-sns-publish-notifications@1.0.0
+      uses: nothingalike/sns-publish-topic@v1.6
       with:
-        SUBJECT: "Documentation updated"
-        MESSAGE: "message"
+        MESSAGE: ${{ toJSON(github) }}
         TOPIC_ARN: "arn:aws:sns:${{ secrets.AWS_DOCS_REGION }}:${{ secrets.AWS_DOCS_ACCOUNT_ID }}:${{ secrets.AWS_DOCS_SNS_TOPIC }}"
-        ADD_GITHUB_DETAILS: "true"
       env:
         AWS_REGION: ${{ secrets.AWS_DOCS_REGION }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_DOCS_ACCESS_KEY_ID }}
