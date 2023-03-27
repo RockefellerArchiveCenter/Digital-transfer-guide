@@ -16,9 +16,9 @@ jobs:
       uses: akki192/aws-sns-publish-notifications@1.0.0
       with:
         SUBJECT: "Documentation updated"
-        MESSAGE: "message"
+        MESSAGE: "${{ toJSON(github) }}"
         TOPIC_ARN: "arn:aws:sns:${{ secrets.AWS_DOCS_REGION }}:${{ secrets.AWS_DOCS_ACCOUNT_ID }}:${{ secrets.AWS_DOCS_SNS_TOPIC }}"
-        ADD_GITHUB_DETAILS: "true"
+        ADD_GITHUB_DETAILS: "false"
       env:
         AWS_REGION: ${{ secrets.AWS_DOCS_REGION }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_DOCS_ACCESS_KEY_ID }}
