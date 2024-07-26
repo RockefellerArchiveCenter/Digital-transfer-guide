@@ -1,6 +1,6 @@
 ---
 layout: docs
-title:  "Guide to Digital Transfer"
+title:  "Digital Transfer Guide"
 ---
 ## Overview 
 ### Transfers should
