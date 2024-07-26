@@ -1,4 +1,4 @@
-# Guide to Digital Transfer
+# Digital Transfer Guide
 The Rockefeller Archive Center's guide on transferring digital records.
 
 ## Accessing the documentation
