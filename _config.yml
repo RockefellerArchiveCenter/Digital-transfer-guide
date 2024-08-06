@@ -1,9 +1,6 @@
 public: true
 type: "docs"
-category: "collection development and management"
-tags:
-      "workflow"
-title: "Guide to Digital Transfer"
+title: "Digital Transfer Guide"
 description: "A guide for transferring digital records"
 pages:
-  - ["Guide for Digital Transfer", "index"]
+  - ["Digital Transfer Guide", "index"]
